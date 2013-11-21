@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4044180183860E600C6A163 /* include in Resources */ = {isa = PBXBuildFile; fileRef = B404417E183860E600C6A163 /* include */; };
+		B4044181183860E600C6A163 /* lib in Resources */ = {isa = PBXBuildFile; fileRef = B404417F183860E600C6A163 /* lib */; };
+		B40441851838625E00C6A163 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40441841838625E00C6A163 /* opencv2.framework */; };
+		B4053CF71838ED2B005C22AF /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B4053CF61838ED2B005C22AF /* libc++.dylib */; };
+		B4053CFB1838F3B5005C22AF /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B4053CF81838F3B5005C22AF /* libc++.1.dylib */; };
+		B4053CFC1838F3B5005C22AF /* libc++abi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B4053CF91838F3B5005C22AF /* libc++abi.dylib */; };
+		B4053CFD1838F3B5005C22AF /* libc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B4053CFA1838F3B5005C22AF /* libc.dylib */; };
+		B42A60BC1839CB41002E6876 /* test3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B42A60BA1839CB41002E6876 /* test3.jpg */; };
+		B42A60BD1839CB41002E6876 /* test4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B42A60BB1839CB41002E6876 /* test4.jpg */; };
+		B48FE13A183ADB7800C1E43E /* test5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B48FE139183ADB7800C1E43E /* test5.jpg */; };
+		B48FE13C183ADB7C00C1E43E /* test6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B48FE13B183ADB7C00C1E43E /* test6.jpg */; };
+		B48FE13E183ADB7F00C1E43E /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B48FE13D183ADB7F00C1E43E /* test.jpg */; };
 		B492CFE2181CEC00004A8237 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B492CFE1181CEC00004A8237 /* UIKit.framework */; };
 		B492CFE4181CEC00004A8237 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B492CFE3181CEC00004A8237 /* Foundation.framework */; };
 		B492CFE6181CEC00004A8237 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B492CFE5181CEC00004A8237 /* CoreGraphics.framework */; };
@@ -23,6 +35,7 @@
 		B492D008181CEC00004A8237 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B492CFE3181CEC00004A8237 /* Foundation.framework */; };
 		B492D010181CEC00004A8237 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B492D00E181CEC00004A8237 /* InfoPlist.strings */; };
 		B492D013181CEC00004A8237 /* SpecialCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B492D012181CEC00004A8237 /* SpecialCameraTests.m */; };
+		B498D3371837ABFC00576BB7 /* test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B498D3361837ABFC00576BB7 /* test2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B404417E183860E600C6A163 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; name = include; path = ../../../../usr/local/include; sourceTree = "<group>"; };
+		B404417F183860E600C6A163 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lib; path = ../../../../usr/local/lib; sourceTree = "<group>"; };
+		B40441841838625E00C6A163 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../Downloads/opencv2.framework; sourceTree = "<group>"; };
+		B4053CF61838ED2B005C22AF /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		B4053CF81838F3B5005C22AF /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "usr/lib/libc++.1.dylib"; sourceTree = SDKROOT; };
+		B4053CF91838F3B5005C22AF /* libc++abi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++abi.dylib"; path = "usr/lib/libc++abi.dylib"; sourceTree = SDKROOT; };
+		B4053CFA1838F3B5005C22AF /* libc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libc.dylib; path = usr/lib/libc.dylib; sourceTree = SDKROOT; };
+		B42A60BA1839CB41002E6876 /* test3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test3.jpg; sourceTree = "<group>"; };
+		B42A60BB1839CB41002E6876 /* test4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test4.jpg; sourceTree = "<group>"; };
+		B48FE139183ADB7800C1E43E /* test5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test5.jpg; sourceTree = "<group>"; };
+		B48FE13B183ADB7C00C1E43E /* test6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test6.jpg; sourceTree = "<group>"; };
+		B48FE13D183ADB7F00C1E43E /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 		B492CFDE181CEC00004A8237 /* SpecialCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpecialCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B492CFE1181CEC00004A8237 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B492CFE3181CEC00004A8237 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +83,7 @@
 		B492D00F181CEC00004A8237 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B492D011181CEC00004A8237 /* SpecialCameraTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpecialCameraTests.h; sourceTree = "<group>"; };
 		B492D012181CEC00004A8237 /* SpecialCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpecialCameraTests.m; sourceTree = "<group>"; };
+		B498D3361837ABFC00576BB7 /* test2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +91,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4053CFB1838F3B5005C22AF /* libc++.1.dylib in Frameworks */,
+				B4053CFC1838F3B5005C22AF /* libc++abi.dylib in Frameworks */,
+				B4053CFD1838F3B5005C22AF /* libc.dylib in Frameworks */,
+				B4053CF71838ED2B005C22AF /* libc++.dylib in Frameworks */,
+				B40441851838625E00C6A163 /* opencv2.framework in Frameworks */,
 				B492CFE2181CEC00004A8237 /* UIKit.framework in Frameworks */,
 				B492CFE4181CEC00004A8237 /* Foundation.framework in Frameworks */,
 				B492CFE6181CEC00004A8237 /* CoreGraphics.framework in Frameworks */,
@@ -84,9 +115,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B404417D183860C300C6A163 /* opencv */ = {
+			isa = PBXGroup;
+			children = (
+				B404417E183860E600C6A163 /* include */,
+				B404417F183860E600C6A163 /* lib */,
+			);
+			name = opencv;
+			sourceTree = "<group>";
+		};
 		B492CFD5181CEC00004A8237 = {
 			isa = PBXGroup;
 			children = (
+				B404417D183860C300C6A163 /* opencv */,
 				B492CFE7181CEC00004A8237 /* SpecialCamera */,
 				B492D00B181CEC00004A8237 /* SpecialCameraTests */,
 				B492CFE0181CEC00004A8237 /* Frameworks */,
@@ -106,6 +147,11 @@
 		B492CFE0181CEC00004A8237 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B4053CF81838F3B5005C22AF /* libc++.1.dylib */,
+				B4053CF91838F3B5005C22AF /* libc++abi.dylib */,
+				B4053CFA1838F3B5005C22AF /* libc.dylib */,
+				B4053CF61838ED2B005C22AF /* libc++.dylib */,
+				B40441841838625E00C6A163 /* opencv2.framework */,
 				B492CFE1181CEC00004A8237 /* UIKit.framework */,
 				B492CFE3181CEC00004A8237 /* Foundation.framework */,
 				B492CFE5181CEC00004A8237 /* CoreGraphics.framework */,
@@ -137,6 +183,12 @@
 				B492CFF3181CEC00004A8237 /* Default.png */,
 				B492CFF5181CEC00004A8237 /* Default@2x.png */,
 				B492CFF7181CEC00004A8237 /* Default-568h@2x.png */,
+				B48FE13D183ADB7F00C1E43E /* test.jpg */,
+				B498D3361837ABFC00576BB7 /* test2.jpg */,
+				B42A60BA1839CB41002E6876 /* test3.jpg */,
+				B42A60BB1839CB41002E6876 /* test4.jpg */,
+				B48FE139183ADB7800C1E43E /* test5.jpg */,
+				B48FE13B183ADB7C00C1E43E /* test6.jpg */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -231,11 +283,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B48FE13A183ADB7800C1E43E /* test5.jpg in Resources */,
 				B492CFEC181CEC00004A8237 /* InfoPlist.strings in Resources */,
+				B48FE13C183ADB7C00C1E43E /* test6.jpg in Resources */,
+				B48FE13E183ADB7F00C1E43E /* test.jpg in Resources */,
+				B4044180183860E600C6A163 /* include in Resources */,
+				B42A60BD1839CB41002E6876 /* test4.jpg in Resources */,
+				B4044181183860E600C6A163 /* lib in Resources */,
 				B492CFF4181CEC00004A8237 /* Default.png in Resources */,
 				B492CFF6181CEC00004A8237 /* Default@2x.png in Resources */,
 				B492CFF8181CEC00004A8237 /* Default-568h@2x.png in Resources */,
 				B492CFFB181CEC00004A8237 /* MainStoryboard.storyboard in Resources */,
+				B498D3371837ABFC00576BB7 /* test2.jpg in Resources */,
+				B42A60BC1839CB41002E6876 /* test3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,9 +441,24 @@
 		B492D017181CEC00004A8237 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					/Users/idreamk/Downloads,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpecialCamera/SpecialCamera-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/openvc,
+					/usr/local/include/openvc2,
+					"/usr/local/include/**",
+					"$(SRCROOT)",
+				);
 				INFOPLIST_FILE = "SpecialCamera/SpecialCamera-Info.plist";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,9 +467,24 @@
 		B492D018181CEC00004A8237 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					/Users/idreamk/Downloads,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpecialCamera/SpecialCamera-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/openvc,
+					/usr/local/include/openvc2,
+					"/usr/local/include/**",
+					"$(SRCROOT)",
+				);
 				INFOPLIST_FILE = "SpecialCamera/SpecialCamera-Info.plist";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -453,6 +543,7 @@
 				B492D018181CEC00004A8237 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B492D019181CEC00004A8237 /* Build configuration list for PBXNativeTarget "SpecialCameraTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +552,7 @@
 				B492D01B181CEC00004A8237 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
